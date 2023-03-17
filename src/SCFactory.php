@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace App\Cache;
+namespace Core\Cache;
 
+use Core\Cache\Adapters\CacheMemoryAdapter;
+use Core\Cache\Adapters\CacheSessionAdapter;
+use Core\Cache\Adapters\CacheFileAdapter;
 use Psr\SimpleCache\CacheInterface;
-use App\Cache\Adapters\CacheMemoryAdapter;
-use App\Cache\Adapters\CacheSessionAdapter;
-use App\Cache\Adapters\CacheFileAdapter;
 
 class SCFactory
 {

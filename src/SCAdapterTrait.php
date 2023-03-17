@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Cache;
+namespace Core\Cache;
 
 use \DateInterval;
 use \DateTime;

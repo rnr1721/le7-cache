@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Cache;
+namespace Core\Cache;
 
 use Psr\SimpleCache\InvalidArgumentException as PSRCacheException;
 

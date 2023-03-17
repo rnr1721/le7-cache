@@ -1,7 +1,7 @@
 <?php
 
 use Psr\SimpleCache\CacheInterface;
-use App\Cache\SCFactory;
+use Core\Cache\SCFactory;
 
 require_once 'vendor/autoload.php';
 require_once __DIR__ . '/../vendor/autoload.php';

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Cache\Adapters;
+namespace Core\Cache\Adapters;
 
-use App\Cache\CacheException;
-use App\Cache\SCAdapterTrait;
-use App\Cache\SCAdapterInterface;
+use Core\Cache\CacheException;
+use Core\Cache\SCAdapterTrait;
+use Core\Cache\SCAdapterInterface;
 use \DateInterval;
 use function time,
              file_exists,
