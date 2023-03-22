@@ -7,9 +7,10 @@ namespace Core\Cache;
 use Core\Cache\Adapters\CacheMemoryAdapter;
 use Core\Cache\Adapters\CacheSessionAdapter;
 use Core\Cache\Adapters\CacheFileAdapter;
+use Core\Cache\Interfaces\SCFactory;
 use Psr\SimpleCache\CacheInterface;
 
-class SCFactory
+class SCFactoryGeneric implements SCFactory
 {
 
     public function getFileCache(string $folder): CacheInterface
