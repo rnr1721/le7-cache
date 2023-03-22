@@ -31,5 +31,16 @@
     "require-dev": {
         "vimeo/psalm": "^5.7",
         "phpunit/phpunit": "^10.0"
+    },
+    "suggest": {
+        "rnr1721/le7-cache-memcache": "Needed to support Memcache and memcached"
+    },
+    "scripts": {
+        "test": [
+            "@phpunit",
+            "@psalm"
+        ],
+        "phpunit": "phpunit",
+        "psalm": "psalm"
     }
 }
