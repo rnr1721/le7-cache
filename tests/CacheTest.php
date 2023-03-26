@@ -1,7 +1,7 @@
 <?php
 
 use Psr\SimpleCache\CacheInterface;
-use Core\Cache\Interfaces\SCFactory;
+use Core\Interfaces\SCFactory;
 use Core\Cache\SCFactoryGeneric;
 
 require_once 'vendor/autoload.php';

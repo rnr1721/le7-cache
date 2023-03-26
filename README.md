@@ -71,7 +71,7 @@ use Psr\SimpleCache\CacheInterface;
 
 ```php
 
-use Core\Cache\Interfaces\SCFactory;
+use Core\Interfaces\SCFactory;
 
     /**
      * Get filesysyem cache
