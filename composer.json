@@ -1,7 +1,7 @@
 {
     "name": "rnr1721/le7-cache",
     "description": "PSR-16 SimpleCache for Le7 framework or any other PHP projects",
-    "keywords": ["le7", "le7-framework", "framework", "view", "component"],
+    "keywords": ["le7", "le7-framework", "framework", "cache", "component"],
     "authors": [
         {
             "name": "Eugeny G",
@@ -24,6 +24,9 @@
             "email": "rnr1721@gmail.com"
         }
     ],
+    "provide": {
+        "psr/simple-cache-implementation": "2.0.0 || 3.0.0"
+    },
     "require": {
         "php": ">=8.1",
         "psr/simple-cache": "^3.0"
